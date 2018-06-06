@@ -4,7 +4,7 @@
   "description": "gulp-demo\r * [gulp的简单使用（MAC OX 系统）](https://blog.csdn.net/songchunmin_/article/details/51690572)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/1391020381/gulp-demo/issues"
   },
-  "homepage": "https://github.com/1391020381/gulp-demo#readme"
+  "homepage": "https://github.com/1391020381/gulp-demo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1"
+  }
 }
